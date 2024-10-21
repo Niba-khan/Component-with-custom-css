@@ -1,0 +1,9 @@
+.p{
+    background-color: cyan;
+    color: #000;
+    font-size: 50px;
+    font: bold;
+    display: flex;
+    justify-content: center;
+
+}
