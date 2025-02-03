@@ -39,6 +39,18 @@
     margin-bottom: 20px;
   }
   
+  .iconRow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+  
   .rightSection {
     width: 60%;
   }
