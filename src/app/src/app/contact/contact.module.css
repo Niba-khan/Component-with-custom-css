@@ -1,0 +1,101 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+  .contactBox {
+    display: flex;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1000px;
+  }
+  
+  .leftSection {
+    width: 40%;
+    padding-right: 20px;
+  }
+  
+  .title {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #1e40af;
+    font-weight: bold;
+  }
+  
+  .heading {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    color: #6b7280;
+    margin-bottom: 20px;
+  }
+  
+  .iconRow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .icon {
+    color: #2563eb;
+    font-size: 18px;
+  }
+  
+  .rightSection {
+    width: 60%;
+  }
+  
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .inputField {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+    background-color: #eef2ff;
+  }
+  
+  .textarea {
+    height: 100px;
+  }
+  
+  .button {
+    background-color: #2563eb;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #1e3a8a;
+  }
+  
+  @media (max-width: 768px) {
+    .contactBox {
+      flex-direction: column;
+    }
+    .leftSection,
+    .rightSection {
+      width: 100%;
+    }
+  }
+  
