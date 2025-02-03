@@ -1,13 +1,19 @@
-
-import Style from './page.module.css'
+import Hero from "./components/hero/hero";
+import Programme from "./Programme/programe";
+import AboutUniversity from "./about/page";
+import Teachers from "./teachers/page";
+import Contact from "./contact/page";
 import Navbar from "./components/navbar/navbar";
 
 export default function Home() {
   return (
     <div>
       <Navbar/>
-      <h1 className={Style.h}>Welcome to My Website</h1>
-      <p className={Style.p}>This is My Home Page</p>
+      <Hero/>
+      <Programme/>
+      <AboutUniversity/>
+      <Teachers/>
+      <Contact/>
     </div>
   )
 }
